@@ -1,0 +1,16 @@
+# Credenciales: NUNCA se suben al repositorio
+.env
+.streamlit/secrets.toml
+
+# Entornos virtuales de Python
+venv/
+venv311/
+.venv/
+env/
+
+# Archivos temporales
+__pycache__/
+*.pyc
+__MACOSX/
+.DS_Store
+Thumbs.db

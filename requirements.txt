@@ -1,0 +1,17 @@
+# Backend (API)
+fastapi==0.110.0
+uvicorn==0.28.0
+pymongo==4.6.2
+python-dotenv==1.0.1
+pydantic==2.6.4
+python-multipart==0.0.9
+cloudinary==1.39.0
+reportlab==4.1.0
+requests==2.31.0
+
+# Interfaz (Streamlit)
+streamlit==1.32.2
+altair>=5.0,<6
+# Versiones compatibles entre sí (pyarrow 18+ exige NumPy 2, que Streamlit 1.32 no soporta)
+numpy>=1.26,<2
+pyarrow==17.0.0
